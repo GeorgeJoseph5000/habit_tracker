@@ -170,17 +170,14 @@ class UserProvider extends ChangeNotifier {
                 if (habit.lastDayDone[0] == now.day) {
                   setHighScore(habit);
                   await saveData(users);
-                  print("George");
                 } else if (habit.lastDayDone[0] + 1 == now.day) {
                   if (habit.timeInDay[0] < now.hour) {
                     setHighScore(habit);
                     await saveData(users);
-                  print("George");
                   } else if (habit.timeInDay[0] == now.hour) {
                     if (habit.timeInDay[1] < now.minute) {
                       setHighScore(habit);
                       await saveData(users);
-                  print("George");
                     } else {
                       await loseStreak(habit);
                     }
