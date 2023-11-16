@@ -1,8 +1,6 @@
 # habit_tracker
 
-A new Flutter project.
 
-## Getting Started
 
 A project for a course that aimed for teaching flutter from scratch to advanced concepts
 - Introducing Concepts as 
